@@ -1,14 +1,21 @@
 import React from 'react'
-import Hero from './components/Hero'
-import Type from './components/Type'
-import Jobs from './components/Jobs'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home'
+import Jobspage from './pages/Jobspage';
+import Job from './pages/Job';
+import Addjob from './pages/Addjob';
 
 const App = () => {
   return (
     <>
-     <Hero />
-     <Type />
-     <Jobs />
+    <Router>
+     <Routes>
+        <Route index path="/" element={<Home />} />
+        <Route path="/jobs" element={<Jobspage />} />
+        <Route path="/job" element={<Job />} />
+        <Route path="/addjob" element={<Addjob />} />
+      </Routes>
+     </Router>
     </>
   )
 }

@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Job = () => {
   return (
-    <div className="bg-gray-200 p-4 m-2 md:w-1/4 rounded-xl">
+    <div className="bg-gray-100 p-4 m-2 md:w-1/4 rounded-xl">
       <small>Full Time</small>
       <h1 className="text-2xl font-bold mb-3">Senior React Developer</h1>
       <p className="text-sm">We are seeking a Senior Frontend Developer to join our Team</p>
@@ -12,7 +12,7 @@ const Job = () => {
 
       <div className="flex justify-between mt-5">
         <h4 className="text-red-600 text-xs">Noston, MA</h4>
-        <Button btnText={"Read More"} btnColor={"blue"} />
+        <Button btnText={"Read More"} btnColor={"blue"} dest={"/job"} />
       </div>
 
     </div>
