@@ -1,5 +1,7 @@
-[
+{
+  "jobs": [
     {
+      "id": "1",
       "jobTitle": "Frontend Developer",
       "jobDescription": "We are looking for a skilled Frontend Developer to join our team. The ideal candidate will have experience with React, CSS, and JavaScript, and a passion for creating user-friendly web applications.",
       "companyName": "Tech Innovators Inc.",
@@ -9,6 +11,7 @@
       "salary": "$80,000 - $100,000"
     },
     {
+      "id": "2",
       "jobTitle": "Data Analyst",
       "jobDescription": "We are seeking a Data Analyst to collect, analyze, and interpret large datasets. The candidate should be proficient in SQL and Excel, with a strong understanding of data visualization tools like Tableau.",
       "companyName": "Data Solutions Corp.",
@@ -18,6 +21,7 @@
       "salary": "$70,000 - $90,000"
     },
     {
+      "id": "3",
       "jobTitle": "Marketing Manager",
       "jobDescription": "The Marketing Manager will be responsible for developing and executing marketing strategies to increase brand awareness and drive sales. Experience with digital marketing and social media campaigns is required.",
       "companyName": "Creative Agency LLC",
@@ -27,6 +31,7 @@
       "salary": "$90,000 - $120,000"
     },
     {
+      "id": "4",
       "jobTitle": "Project Manager",
       "jobDescription": "We are seeking a Project Manager to oversee multiple projects from conception to completion. The candidate should have strong leadership skills and experience in Agile methodologies.",
       "companyName": "Enterprise Solutions Ltd.",
@@ -36,6 +41,7 @@
       "salary": "$95,000 - $110,000"
     },
     {
+      "id": "5",
       "jobTitle": "Software Engineer",
       "jobDescription": "As a Software Engineer, you will design, develop, and maintain software applications. The ideal candidate will have experience with Python, Java, or C++ and a strong understanding of software development principles.",
       "companyName": "InnovateTech Inc.",
@@ -45,6 +51,7 @@
       "salary": "$100,000 - $130,000"
     },
     {
+      "id": "6",
       "jobTitle": "UX/UI Designer",
       "jobDescription": "We are looking for a UX/UI Designer to create intuitive and visually appealing user interfaces. The candidate should have experience with design tools like Sketch, Figma, or Adobe XD.",
       "companyName": "DesignPro Studios",
@@ -52,42 +59,6 @@
       "jobType": "Part-time",
       "location": "Remote",
       "salary": "$50,000 - $70,000"
-    },
-    {
-      "jobTitle": "DevOps Engineer",
-      "jobDescription": "The DevOps Engineer will be responsible for automating and streamlining our operations and processes. The ideal candidate should have experience with cloud services like AWS or Azure and containerization tools like Docker.",
-      "companyName": "CloudTech Solutions",
-      "companyDescription": "CloudTech Solutions specializes in providing cloud-based solutions and infrastructure services to businesses. Our expertise includes cloud migration, DevOps, and managed services.",
-      "jobType": "Full-time",
-      "location": "Seattle, WA",
-      "salary": "$110,000 - $140,000"
-    },
-    {
-      "jobTitle": "HR Coordinator",
-      "jobDescription": "We are looking for an HR Coordinator to assist with recruiting, onboarding, and employee relations. The ideal candidate should have excellent communication skills and experience with HR software.",
-      "companyName": "Global Enterprises",
-      "companyDescription": "Global Enterprises is a multinational corporation with a diverse portfolio of businesses. We are committed to fostering a dynamic and inclusive work environment for all our employees.",
-      "jobType": "Full-time",
-      "location": "Boston, MA",
-      "salary": "$60,000 - $75,000"
-    },
-    {
-      "jobTitle": "Accountant",
-      "jobDescription": "The Accountant will manage financial records, prepare reports, and ensure compliance with tax regulations. The candidate should have experience with accounting software like QuickBooks or SAP.",
-      "companyName": "FinancePros Ltd.",
-      "companyDescription": "FinancePros Ltd. offers a range of financial services, including accounting, auditing, and tax preparation. We help businesses manage their finances efficiently and comply with regulations.",
-      "jobType": "Part-time",
-      "location": "Dallas, TX",
-      "salary": "$55,000 - $70,000"
-    },
-    {
-      "jobTitle": "Customer Support Specialist",
-      "jobDescription": "We are seeking a Customer Support Specialist to assist our clients with technical issues and inquiries. The candidate should have excellent problem-solving skills and a customer-oriented attitude.",
-      "companyName": "SupportTech Services",
-      "companyDescription": "SupportTech Services provides technical support and customer service solutions to businesses worldwide. Our goal is to ensure that our clients receive the best possible service.",
-      "jobType": "Full-time",
-      "location": "Phoenix, AZ",
-      "salary": "$45,000 - $60,000"
     }
   ]
-  
+}

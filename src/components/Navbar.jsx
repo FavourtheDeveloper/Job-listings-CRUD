@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="links flex flex-row space-x-5 text-l p-2 text-yellow-300">
             <Link to={"/"}>Home</Link>
             <Link to={"/jobs"}>Jobs</Link>
-            <Link><Button btnText={"Add Job"} dest={"/addjob"} /></Link>
+            <Button btnText={"Add Job"} dest={"/addjob"} />
         </div>
     </nav>
   )
