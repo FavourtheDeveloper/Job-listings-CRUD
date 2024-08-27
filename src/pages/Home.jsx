@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Hero />
       <Type />
-      <Jobs />
+      <Jobs isHome={true} />
       <Footer />
     </div>
   );

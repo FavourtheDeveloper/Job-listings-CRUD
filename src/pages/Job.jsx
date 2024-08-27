@@ -11,21 +11,29 @@ const Job = () => {
   const [job, setJob] = useState([]);
 
     const deleteJob = () => {
-      fetch(url, {
-        method: "DELETE"
-      }) .then((response) => {
-        if (response.ok) {
-          alert("Deleted Successfully");
-          navigate("/jobs")
+      const userResponse = confirm("Are you sure?")
+
+      if (userResponse) {
+        fetch(url, {
+          method: "DELETE"
+        }) .then((response) => {
+          if (response.ok) {
+            alert("Deleted Successfully");
+            navigate("/jobs")
+            
+          } else {
+            console.log("There was an error");
+            
+          }
+        }) .catch((error) => {
+          console.log(error);
           
-        } else {
-          console.log("There was an error");
-          
-        }
-      }) .catch((error) => {
-        console.log(error);
-        
-      })
+        })
+
+      } else {
+        navigate(`/job/${id}`)
+      }
+
     }
 
   useEffect(() => {

@@ -13,6 +13,7 @@ const Form = ({submitData, formData, setFormData}) => {
               </label>
               <div className="mt-2">
                 <input
+                required
                   type="text"
                   name="jobTitle"
                   id="jobTitle"
@@ -37,6 +38,7 @@ const Form = ({submitData, formData, setFormData}) => {
               </label>
               <div className="mt-2">
                 <input
+                required
                   type="text"
                   name="jobDescription"
                   id="jobDescription"
@@ -61,6 +63,7 @@ const Form = ({submitData, formData, setFormData}) => {
               </label>
               <div className="mt-2">
                 <input
+                required
                   type="text"
                   name="companyName"
                   id="companyName"
@@ -85,6 +88,7 @@ const Form = ({submitData, formData, setFormData}) => {
               </label>
               <div className="mt-2">
                 <input
+                required
                   type="text"
                   name="companyDescription"
                   id="companyDescription"
@@ -135,6 +139,7 @@ const Form = ({submitData, formData, setFormData}) => {
               </label>
               <div className="mt-2">
                 <input
+                required
                   type="text"
                   name="location"
                   id="location"
@@ -159,6 +164,7 @@ const Form = ({submitData, formData, setFormData}) => {
               </label>
               <div className="mt-2">
                 <input
+                required
                   type="text"
                   name="salary"
                   id="salary"
