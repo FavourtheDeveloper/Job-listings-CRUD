@@ -6,7 +6,7 @@ import { useLocation } from 'react-router-dom'
 
 const Jobs = ({isHome}) => {
   const [jobs, setJobs] = useState([])
-console.log(isHome);
+
 
 const location = useLocation()
 
